@@ -9,7 +9,6 @@ abstract class Aggregate {
   abstract createIterator(): MyIterator
 }
 
-
 class ConcreteIterator extends MyIterator {
   private aggregate: ConcreteAggregate
   private current: number = 0
